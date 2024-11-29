@@ -1,0 +1,84 @@
+* {
+    font: "JetBrainsMono Nerd Font 10";
+
+    bg0:  #eeeeee0A;
+    bg1:  #eeeeee1A;
+    bg2:  #eeeeee2A;
+    bg3:  #eeeeee4A;
+    bg4:  #eeeeee5A;
+
+    fg0:  #ffffff;
+    fg1:  #eeeeee;
+
+    background-color: transparent;
+    text-color:       @fg0;
+    padding:          0px;
+    margin:           0px;
+}
+
+window {
+  fullscreen: false;
+  width: 80%;
+  height: 70%;
+  padding: 1em;
+  background-color: @bg1;
+}
+
+mainbox {
+  padding:  8px;
+}
+
+inputbar {
+  background-color: @bg2;
+
+  margin:   0px calc( 50% - 360px );
+  padding:  6px 10px;
+  spacing:  4px;
+
+  border:         1px;
+  border-radius:  6px;
+  border-color:   @bg3;
+
+  children: [entry];
+}
+
+prompt {
+  enabled:  false;
+}
+
+entry {
+  placeholder:        "Search Apps...";
+  placeholder-color:  @bg4;
+}
+
+listview {
+  margin:   64px calc( 50% - 900px );
+  spacing:  100px;
+  columns:  6;
+  fixed-columns: true;
+}
+
+element, element-text, element-icon {
+  cursor: pointer;
+}
+
+element {
+  padding:      8px;
+  spacing:      4px;
+
+  orientation:    vertical;
+  border-radius:  16px;
+}
+
+element selected {
+  background-color: @bg4;
+}
+
+element-icon {
+  size: 4em;
+  horizontal-align: 0.5;
+}
+
+element-text {
+  horizontal-align: 0.5;
+}
