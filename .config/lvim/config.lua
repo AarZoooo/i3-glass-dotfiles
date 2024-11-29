@@ -8,9 +8,13 @@ lvim.transparent_window = true
 
 lvim.plugins = {
   {
-    "folke/tokyonight.nvim",
-    lazy = false,
+    "catppuccin/nvim",
+    name = "catppuccin",
     priority = 1000,
-    opts = {},
+
+    config = function ()
+      require("catppuccin").setup({ flavour = "frappe" })
+      vim.cmd.colorscheme "catppuccin"
+    end
   }
 }
