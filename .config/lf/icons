@@ -1,0 +1,78 @@
+di        # Directory
+fi        # File
+tw        # Twins (shared or linked files)
+ow        # Owned directory
+ln        # Symlink
+or        # Orphan file (or broken symlink)
+ex        # Executable
+*.txt     # Text file
+*.mom     # Groff mom document
+*.me      # Groff me document
+*.ms      # Groff ms document
+*.avif    # Image file
+*.png     # Image file
+*.webp    # Image file
+*.ico     # Icon file
+*.jpg     # Photo
+*.jpe     # Photo
+*.jpeg    # Photo
+*.gif     # GIF image
+*.svg     # SVG vector image
+*.tif     # TIFF image
+*.tiff    # TIFF image
+*.xcf     # GIMP file
+*.html    # HTML file
+*.xml   謹  # XML file
+*.gpg     # Encrypted file
+*.css     # CSS file
+*.pdf     # PDF document
+*.djvu    # DjVu document
+*.epub    # EPUB book
+*.csv     # Spreadsheet
+*.xlsx    # Excel spreadsheet
+*.tex     # LaTeX file
+*.md      # Markdown file
+*.r       # R script
+*.R       # R script
+*.rmd     # R Markdown
+*.Rmd     # R Markdown
+*.m       # Matlab/Octave script
+*.mp3     # Audio file
+*.opus    # Audio file
+*.ogg     # Audio file
+*.m4a     # Audio file
+*.flac    # Audio file
+*.wav     # Audio file
+*.mkv     # Video file
+*.mp4     # Video file
+*.webm    # Video file
+*.mpeg    # Video file
+*.avi     # Video file
+*.mov     # Video file
+*.mpg     # Video file
+*.wmv     # Video file
+*.m4b     # Video file
+*.flv     # Video file
+*.zip     # Compressed file
+*.rar     # Compressed file
+*.7z      # Compressed file
+*.tar     # Compressed file
+*.z64     # Game ROM
+*.v64     # Game ROM
+*.n64     # Game ROM
+*.gba     # Game ROM
+*.nes     # Game ROM
+*.gdi     # Game ROM
+*.1       # Manual
+*.nfo     # Info file
+*.info    # Info file
+*.log     # Log file
+*.iso     # Disk image
+*.img     # Disk image
+*.bib     # Bibliography
+*.ged     # Genealogy file
+*.part    # Partial download
+*.torrent  # Torrent file
+*.jar     # JAR file
+*.java  ﭱ  # Java source code
+

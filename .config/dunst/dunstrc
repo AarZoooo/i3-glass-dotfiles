@@ -1,0 +1,23 @@
+[global]
+font = JetBrainsMono Nerd Font 10
+offset = 15x47
+icon_corner_radius = 6
+origin = top-center
+frame_width = 0
+context = ctrl+shift+period
+
+# geometry, opacity, and other unsupported settings are removed
+
+[urgency_low]
+background = "#eeeeee1a"  # Same background color
+foreground = "#ffffff"  # Text color from your theme
+
+[urgency_normal]
+background = "#eeeeee1a"  # Same background color as low urgency
+foreground = "#ffffff"  # Text color from your theme
+
+[urgency_critical]
+# Slight tint of red + opacity for glass effect (use RGB hex values for transparency)
+background = "#e782841a"  # Red tint with background blend
+foreground = "#ff1010"  # Text color from your theme
+
