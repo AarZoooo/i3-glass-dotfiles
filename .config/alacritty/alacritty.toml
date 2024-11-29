@@ -1,0 +1,24 @@
+[general]
+live_config_reload = true
+import = ["~/.config/alacritty/catppuccin-frappe.toml", "~/.config/alacritty/fonts.toml"]
+
+[window]
+padding = {x = 5, y = 5}
+decorations = "none"
+opacity = 0.1
+title = "Terminal"
+
+[font]
+normal = {family = "JetBrainsMono Nerd Font", style = "Semibold"}
+size = 6
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = {shape = "Beam", blinking = "On"}
+unfocused_hollow = false
+
+[mouse]
+hide_when_typing = true
+
